@@ -11,10 +11,7 @@ public class ColumnHorizontalScrollView extends HorizontalScrollView {
 	public ColumnHorizontalScrollView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
-
-	public ColumnHorizontalScrollView(Context context, AttributeSet attrs,
-			int defStyle) {
+	public ColumnHorizontalScrollView(Context context, AttributeSet attrs,int defStyle) {
 		super(context, attrs, defStyle);
 	}
-
 }

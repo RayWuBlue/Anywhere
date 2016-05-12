@@ -1,8 +1,6 @@
 package com.ray.anywhere.widgets;
 
 
-import com.ray.anywhere.activity.PhotoView;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -12,6 +10,8 @@ import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.widget.ImageView;
+
+import com.ray.anywhere.activity.PhotoView;
 
 /**
  * ����androidϵͳ�Դ���ImageViewTouchBase�����޸�
@@ -51,10 +51,7 @@ public class QImageView extends ImageView {
 		this.imageHeight = imageHeight;
 		this.imageWidth = imageWidth;
 	}
-	
-	/**
-	 * ����Ŵ�󳬳���Ļ��С��ͼƬ�ϻ����»����ǿ�������ײ�ͣ��
-	 */
+
 	protected void onDraw(Canvas canvas) {
 		if(imageWidth*imageHeight!=0){
 		//������ʾ��ͼƬʵ�ʿ��
@@ -75,10 +72,7 @@ public class QImageView extends ImageView {
 	private void init() {
 		setScaleType(ImageView.ScaleType.MATRIX);
 	}
-	
-	/**
-	 * ����ͼƬҪ��Ӧ��Ļ��Ҫ���ŵı���
-	 */
+
 	public void arithScaleRate() {
 		float scaleWidth = PhotoView.screenWidth / (float) imageWidth;
 		float scaleHeight = PhotoView.screenHeight / (float) imageHeight;

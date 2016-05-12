@@ -1,8 +1,5 @@
 package com.ray.anywhere.service;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.Intent;
@@ -15,6 +12,9 @@ import com.ray.anywhere.helper.VersionHelper;
 import com.ray.anywhere.utils.Api;
 import com.ray.anywhere.utils.DataCache;
 import com.ray.anywhere.utils.GetUtil;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 /**
@@ -50,7 +50,6 @@ public class Init  extends Service {
 				Message msg=new Message();
 				msg.what=101;
 				String helloUrl = Api.News.getHelloNews();
-				msg.obj = HttpUtil.getRequest(helloUrl, null);
 				handler.sendMessage(msg);
 			}
 		}).start();
@@ -104,8 +103,5 @@ public class Init  extends Service {
 	public IBinder onBind(Intent intent) {
 		return null;
 	}
-
-
-
 
 }

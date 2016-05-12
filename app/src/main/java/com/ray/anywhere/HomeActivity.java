@@ -13,7 +13,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.ray.anywhere.activity.Login;
@@ -31,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomeActivity extends Activity {
-	private AutoScrollView asView;
+	//private AutoScrollView asView;
 	private GridView gv;
 	private List<ChannelItem> channels;
 	private HomeChannelAdapter adapter;
@@ -53,7 +52,7 @@ public class HomeActivity extends Activity {
 	}
 
 	private void initView() {
-		asView = new AutoScrollView(HomeActivity.this);
+		//asView = new AutoScrollView(HomeActivity.this);
 		btnRetry = (Button) findViewById(R.id.home_btn_retry);
 		btnRetry.setOnClickListener(new OnClickListener() {
 
@@ -64,8 +63,7 @@ public class HomeActivity extends Activity {
 
 			}
 		});
-		((RelativeLayout) findViewById(R.id.act_rl_scrollview)).addView(asView
-				.getView());
+		//((RelativeLayout) findViewById(R.id.act_rl_scrollview)).addView(asView.getView());
 		findViewById(R.id.count_down).setOnClickListener(new OnClickListener() {
 
 			@Override

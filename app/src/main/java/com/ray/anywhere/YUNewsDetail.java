@@ -1,7 +1,5 @@
 package com.ray.anywhere;
 
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
@@ -30,6 +28,8 @@ import com.ray.anywhere.db.SQLHelper;
 import com.ray.anywhere.utils.AndroidShare;
 import com.ray.anywhere.utils.Api;
 import com.ray.anywhere.utils.T;
+
+import org.json.JSONObject;
 
 
 @SuppressLint("JavascriptInterface")
@@ -129,7 +129,7 @@ public class YUNewsDetail extends BaseActivity {
 				+ "</p>";
 		//data = data + "<hr size='1' />";
 		try {
-			String str = HttpUtil.getRequest(url, null);
+			String str ="";
 			JSONObject jObject = new JSONObject(str);
 			
 			
@@ -185,8 +185,6 @@ public class YUNewsDetail extends BaseActivity {
 }
 
 	private void initcollect(){
-	/*db = openOrCreateDatabase("news_db.db", Context.MODE_PRIVATE, null);
-	db.execSQL("");*/
 	DBUtil dbu = DBUtil.getInstance(YUNewsDetail.this);
 	int id=YUNewsDetail.this.news.getId();
 	result=dbu.rawQuery( "SELECT news_id FROM collect_tb where news_id="+id);

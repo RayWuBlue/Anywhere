@@ -1,17 +1,5 @@
 package com.ray.anywhere.widgets;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.jsoup.Jsoup;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -30,6 +18,18 @@ import android.widget.Spinner;
 import com.ray.anywhere.R;
 import com.ray.anywhere.helper.JsonHelper;
 import com.ray.anywhere.utils.Api;
+
+import org.jsoup.Jsoup;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ClassSelect implements OnItemSelectedListener {
 
@@ -78,15 +78,11 @@ public class ClassSelect implements OnItemSelectedListener {
 				mDialog.dismiss();
 			}
 		});
-		
-		
-		//ѡ��ѧԺ
-		colleageAda=ArrayAdapter.createFromResource(context,
-        		R.array.college,android.R.layout.simple_spinner_item);
+
+		colleageAda=ArrayAdapter.createFromResource(context,R.array.college,android.R.layout.simple_spinner_item);
 		colleageAda.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		college.setAdapter(colleageAda);
-		
-		//ѡ��ѧ��
+
 		term_list=new ArrayList<String>();
 		int year=Calendar.getInstance().get(Calendar.YEAR);
 		int month=Calendar.getInstance().get(Calendar.MONTH)+ 1;
@@ -94,8 +90,7 @@ public class ClassSelect implements OnItemSelectedListener {
 		for(int i=startYear; i>startYear-5; i--){
 			term_list.add(String.valueOf(i));
 		}
-		term_list_ada=new ArrayAdapter<String>(context,
-				android.R.layout.simple_spinner_item,term_list);
+		term_list_ada=new ArrayAdapter<String>(context,android.R.layout.simple_spinner_item,term_list);
 		term_list_ada.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		term.setAdapter(term_list_ada);
 		
