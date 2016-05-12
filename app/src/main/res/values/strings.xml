@@ -22,93 +22,146 @@
     <string name="title_activity_jwc_scrore_detail">成绩单</string>
     <string name="title_activity_news"></string>
     <string name="title_activity_post_detai">PostDetaiActivity</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
+    <string name="hello_tip">长大在线/YUOL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search">查询</string>
+    <string name="into_app">开始使用</string>
+    <string name="net_error_tip">当前网络不可用，请检查你的网络设置</string>
+    <string name="tabbar_item1">首页</string>
+    <string name="tabbar_item2">资讯</string>
+    <string name="tabbar_item3">社区</string>
+    <string name="tabbar_item4">自己</string>
+    <string name="tabbar_item5">更多</string>
+    <string name="comment_1">评论</string>
+    <string name="copyright">copyright © 2015 长大在线. All Right Reserved</string>
+    <string name="day">天</string>
+    <string name="continue_last_search">继续上次查询</string>
+    <string name="search_my_score">查询我的成绩</string>
+    <string name="my_library_info">我的借书信息</string>
+    <string name="login_library">登录图书馆</string>
+    <string name="library_login_id">请输入你的学号或者借书证号</string>
+    <string name="library_login_pwd">请输入图书馆密码</string>
+    <string name="library_tip">如果你还没登录过图书馆或者没有设置过图书馆密码，可以不用输入密码直接登录</string>
+    <string name="renew">续借</string>
+    <string name="cet_name">请输入你的名字</string>
+    <string name="cet_zuz">请输入四六级准考证号</string>
+    <string name="cet_search_id">查询准考证号</string>
+    <string name="term">学期</string>
+    <string name="grade">年级</string>
+    <string name="classname">班级</string>
+    <string name="please_select_class">请选择你的专业班级</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="add">添加</string>
+    <string name="send">发送</string>
+    <string name="response">回复</string>
+    <string name="delete">删除</string>
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
 
-        "Bold, graphic, intentional.\n\n"
+    <string name="current_schedule">当前课表</string>
+    <string name="title_activity_home">长大新闻</string>
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
 
-        "Motion provides meaning.\n\n"
+    <!-- 花椒问答 -->
+    <string name="ask_new">最新问题</string>
+    <string name="ask_wait">等待回复</string>
+    <string name="ask_my">我的问题</string>
+    <string name="ask_phb">排行榜</string>
+    <string name="ask_input_tip">说点什么吧&#8230;</string>
+    <string name="all_ranking">总排名</string>
+    <string name="month_ranking">当月排名</string>
+    <string name="ranking_score">积分</string>
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+    <!-- 自定义组件Xlist -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
 
-        "3D world.\n\n"
+    <!-- 登录注册 -->
+    <string name="login">登录</string>
+    <string name="register">快速注册</string>
+    <string name="register_">注册</string>
+    <string name="input_stuid">请输入学号</string>
+    <string name="input_password">密码：</string>
+    <string name="input_verify">请输入验证码</string>
+    <string name="input_password_again">请再次输入密码</string>
+    <string name="input_register_verify">验证码</string>
+    <string name="input_email">用户名：</string>
+    <string name="input_username">用户名</string>
+    <string name="input_nickname">昵称</string>
+    <string name="select_sex">请选择你的性别</string>
+    <string name="bind_stuid">输入学号进行绑定</string>
+    <string name="next_step">下一步</string>
+    <string name="reg_step1_tip">用户名和性别登录后可以修改</string>
+    <string name="reg_step2_tip">如果您绑定学号可以享受更多更便捷的服务,如果没学号或者不绑定可以直接注册</string>
+    <string name="reg_step3_tip">账号确定后将不可以修改</string>
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+    <!-- 资料共享 -->
+    <string name="download">下载</string>
+    <string name="upload">上传</string>
+    <string name="select_sharing_file">请选择你要共享的文件</string>
 
-        "Light and shadow.\n\n"
+    <!-- 倒计时 -->
+    <string name="title">标题:</string>
+    <string name="date">日期:</string>
+    <string name="time">时间:</string>
+    <string name="address">地点:</string>
 
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+    <!-- 修改个人信息 -->
+    <string name="user_bind_stuid">绑定学号</string>
+    <string name="no_bind_stuid">未绑定</string>
+    <string name="user">账号</string>
+    <string name="nickname">昵称</string>
+    <string name="sex">性别</string>
+    <string name="birthday">生日</string>
+    <string name="qq">QQ</string>
+    <string name="change_password">修改密码</string>
+    <string name="college">学院</string>
+    <string name="head">头像</string>
 
-        "Resting elevation.\n\n"
+    <!-- 设置 -->
+    <string name="check_new_version">检查新版本</string>
+    <string name="about">关于长大校园通</string>
+    <string name="exit_login">退出登录</string>
+    <string name="suggest">反馈建议</string>
+    <string name="receive_push_message">接收推送消息</string>
+    <string name="twog_load_img">2G/3G下自动加载图片</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="zerom">0M</string>
+    <string name="auto_test_update">自动检测更新</string>
 
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
+    <!-- 关于 -->
+    <string name="about_info">项目负责人:吴锐\nQQ:306450705\n电话:15572090961\n邮箱:306450705@qq.com\n校园通交流群：397838258</string>
 
-        "Component elevations.\n\n"
 
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+    <!-- 新闻 -->
+    <string name="net_sorry_tip">咦，网络好像出故障了~</string>
 
-        "Responsive elevation and dynamic elevation offsets.\n\n"
+    <string name="title_activity_notice">Notice</string>
 
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
+    <string name="tab_index">动态</string>
+    <string name="tab_news">新闻</string>
+    <string name="title_activity_yunews_detail">YUNewsDetail</string>
+    <string name="id_1">准考证号</string>
+    <string name="id_2">准考证号：</string>
+    <string name="hint_1">请输入15位准考证号&#160;&#160;</string>
+    <string name="hint_2">请输入姓名的前3个字</string>
+    <string name="name_1">姓名</string>
+    <string name="name_2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;姓名：</string>
+    <string name="name_3">姓名：</string>
+    <string name="query">查询</string>
+    <string name="school">学校：</string>
+    <string name="type">考试类别：</string>
+    <string name="sum_1">&#160;您的成绩总分：</string>
+    <string name="sum_2">总分：</string>
+    <string name="hear">听力：</string>
+    <string name="read">阅读：</string>
+    <string name="synthesize">综合：</string>
+    <string name="write">写作：</string>
+    <string name="tips_3">无法找到对应的分数，请确认你输入的准考证号及姓名无误！</string>
+    <string name="tips_4">姓名输入有误</string>
 </resources>

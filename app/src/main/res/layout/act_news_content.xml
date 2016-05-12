@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical" >
+
+            <include layout="@layout/part_sorry_tip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/news_cover_ll"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/news_cover"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/news_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:layout_alignParentBottom="true"
+                    android:padding="5dp"
+                    android:background="@drawable/shape_scroll_text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <com.ray.anywhere.widgets.NoScrollWebView
+                android:id="@+id/news_content_webview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginBottom="40dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

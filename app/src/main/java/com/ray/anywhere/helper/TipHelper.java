@@ -1,0 +1,22 @@
+package com.ray.anywhere.helper;
+
+import android.content.Context;
+import android.media.MediaPlayer;
+import android.provider.Settings;
+
+public class TipHelper {
+	
+	//��ʾ��
+	public static void PlaySound(Context context){
+		String curMusic=Settings.System.getString(context.getContentResolver(), Settings.System.NOTIFICATION_SOUND);
+		MediaPlayer palyer=new MediaPlayer();
+		try{
+			palyer.setDataSource(curMusic);
+			palyer.prepare();
+		}catch(Exception e){
+			
+		}
+		palyer.start();
+	}
+
+}
